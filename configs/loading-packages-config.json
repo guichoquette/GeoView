@@ -15,7 +15,7 @@
   "corePackages": [],
   "appBar": {
     "tabs": {
-      "core": ["basemap-panel", "aoi-panel"]
+      "core": ["basemap-panel"]
     }
   }
 }
