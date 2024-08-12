@@ -82,6 +82,7 @@
 
         // add event handler to the load legend panel button
         loadLegendPanelBtn.addEventListener('click', function (e) {
+          if (!window?.geoviewPlugins) window.geoviewPlugins = {};
           cgpv.api.plugin.addPlugin('custom-legend-panel', 'mapWM', window.geoviewPlugins['custom-legend-panel'], {
             mapId: 'mapWM',
           });
