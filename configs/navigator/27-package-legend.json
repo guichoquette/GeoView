@@ -13,6 +13,11 @@
   "theme": "geo.ca",
   "components": ["north-arrow", "overview-map"],
   "corePackages": [],
+  "footerBar": {
+    "tabs": {
+      "core": ["legend", "layers", "details", "data-table", "custom-legend-panel"]
+    }
+  },
   "appBar": {
     "tabs": {
       "core": ["custom-legend-panel"]
